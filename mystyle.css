@@ -1,0 +1,289 @@
+
+body{
+ margin: 0;
+ padding: 0;
+}
+#landing_section{
+    width: 100%;
+     height: 110vh;
+	background-color: rgb(78,172,221);
+	padding-left: 12%;
+	padding-right: 12%;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+#l_sec{
+font-family: 'Dr Sugiyama', cursive;
+color: #fff;
+font-size: 62px;
+font-weight:500;
+line-height: 1.1;
+margin:0;
+
+}
+#topbar
+{     
+	display: flex;
+	justify-content: space-between;
+	 
+}
+#topmenulist
+{
+list-style: none;
+color: #fff;
+display: block;
+font-family:'Lato', sans-serif; 
+font-weight: 300;
+font-size:14px;
+margin-top: 15px;
+
+}
+.menuitem{
+	display: inline-block;
+	margin-right: 16px;
+}
+
+#landing_section_text
+{
+ text-align: end;
+ padding-top: 170px;
+}
+
+#l_sec_dis
+{
+	font-family:'Lato', sans-serif; 
+	font-size:30px;
+	font-weight: 300;
+	color:#fff;
+	
+
+}
+.btn-download{
+
+	background-color: transparent;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 12px 24px;
+	font-size: 18px;
+	border-radius: 4px;
+   text-align: end;
+}
+.btn-download:hover
+{
+	background-color: white;
+	color: black;
+}
+
+
+#second_section
+{
+	width: 100%;
+    height: 90vh;
+    background-color: rgb(244, 244, 244);
+
+    padding: 12%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.section_hd
+{
+
+font-size: 42px;
+color: rgb(84,84,84);
+font-weight: 300;
+font-family: 'Lato', sans-serif;
+margin: 0;
+
+
+}
+#second_section_text
+{
+	 width: 50%;
+	display: inline-block;
+    vertical-align: top;
+}
+.section_disp {
+    color: rgb(126, 126, 126);
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    line-height: 1.42857;
+    margin-top: 24px;
+}
+#second_section_qote
+{
+	font-size: 16.5px;
+    color: rgb(126, 126, 126);
+    font-style: italic;
+      line-height: 1.42857;
+    border-left: 8px solid rgb(78, 172, 221);
+    margin: 0px 0px 20px;
+    padding: 0px 20px;
+
+
+}
+.btn-hello {
+    background-color: transparent;
+    color: rgb(78, 172, 221);
+    border: 1px solid rgb(78, 172, 221);
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-top: 24px;
+}
+.btn-hello:hover {
+    background-color: rgb(78, 172, 221);
+    color: #fff;
+}
+
+#second_section_image
+{ 
+    display: inline-block;
+    width: 48%;
+      text-align: end;
+}
+
+
+
+#third_section
+{
+	width: 100%;
+    height: 90vh;
+     padding: 12%;
+    box-sizing: border-box;
+     overflow: hidden;
+    
+}
+#third_section_img {
+    display: inline-block;
+    width: 50%;
+    position: relative;
+   
+}
+
+#third_section_text {
+    display: inline-block;
+    width: 48%;
+     padding-top: 5px;
+}
+#imgid
+{
+	  position: absolute;
+    top: -100px;
+    left: -250px;
+}
+
+
+
+#last-section
+{
+
+ width: 100%;
+    background-color: rgb(19, 196, 175);
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#last-section_heading
+{
+ font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    padding-bottom:8px;
+    color: #fff;
+    margin: 0;
+
+}
+#last-section_heading1
+{
+ font-family: Lato, sans-serif;
+    font-weight: 200;
+    font-size: 23px;
+    padding-bottom:2px;
+    color: #fff;
+    margin: 0;
+
+}
+
+
+#footer
+{
+	width: 100%;
+
+    background-color: rgb(244, 244, 244);
+    padding: 5px;
+
+    box-sizing: border-box;
+    text-align: center;
+}
+.footer-link
+{  
+	
+	 color: rgb(84, 84, 84);
+	  padding: 16px;
+	   margin-right: 54px;
+}
+
+
+
+
+
+@media (max-width: 720px)
+{
+
+#landing_section_text
+{
+	 padding-top: 40px;
+}
+#topmenulist
+{
+	  text-align: right;
+}
+#l_sec{
+ font-size: 48px;
+}
+#l_sec_dis
+{
+
+	 font-size: 18px;
+}
+.btn-download
+{
+	 background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 8px 16px;
+        font-size: 14px;
+        border-radius: 4px;
+        margin-top: 16px;
+        margin-bottom: 36px;
+}
+#second_section_text
+{
+	 width: 100%;
+}
+#second_section
+{
+	min-height: 90vh;
+        height: auto;
+}
+
+#second_section_image
+{
+	   display: none;
+}
+
+#third_section_img
+{
+display: none;
+}
+
+
+
+
+
+}
+
+
+
+
